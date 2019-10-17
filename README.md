@@ -1,8 +1,11 @@
 # Leaderboards
 Front end for a leaderboards page
 
-## Leaderboards folder
-  Contains the assets and the index.html file
+### Assets folder
+  Contains the assets for the page
+
+### index.html
+  The html file for the webpage
   
-## leaderboards.bsdesign 
+### leaderboards.bsdesign 
   Bootstrap studio file
