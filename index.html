@@ -2,9 +2,20 @@
 <html style="background-repeat: no-repeat;">
 
 <head>
+    <script type="text/javascript">
+        const userAction = async () => {
+        const response = await fetch('http://127.0.0.1:5000/api/prs/users/top10');
+        console.log("this is working")
+        const myJson = await response.json(); //extract JSON from the http response
+        console.log(myJson);
+    // do something with myJson
+        }
+        userAction();
+    </script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Leaderboard</title>
+    Header set Access-Control-Allow-Origin: *
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Space+Mono:400,700">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
@@ -25,7 +36,7 @@
         </div>
         </div>
     </nav>
-    <div class="brands"><a href="#"> <img src="assets/img/instacart.png"><img src="assets/img/kickstarter.png"><img src="assets/img/lyft.png"><img src="assets/img/shopify.png"><img src="assets/img/pinterest.png"><img src="assets/img/twitter.png"></a></div>
+    <div class="brands"><a href="#"><img src="assets/img/1200px-GSoC-icon.svg.png" style="width: 94px;"> <img src="assets/img/logo.png" style="width: 106px;"><img src="assets/img/uqg81d3%20-%20Imgur.png" style="width: 187px;"></a></div>
     <section></section>
     <section id="hero" style="font-family: 'Space Mono';">
         <div>
