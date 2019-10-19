@@ -1,9 +1,5 @@
 .brands {
   color: #313437;
-  position: absolute;
-  /* border: 1px solid white; */
-  width: 100%;
-  top: 0;
 }
 
 .brands a {
