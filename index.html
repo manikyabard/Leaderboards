@@ -5,34 +5,36 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Leaderboard</title>
-    Header set Access-Control-Allow-Origin: *
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Space+Mono:400,700">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/Brands.css">
+    <link rel="stylesheet" href="assets/css/countdown-timer-1.css">
+    <link rel="stylesheet" href="assets/css/countdown-timer.css">
     <link rel="stylesheet" href="assets/css/Navigation-with-Search.css">
+    <link rel="stylesheet" href="assets/css/Pretty-Search-Form.css">
+    <link rel="stylesheet" href="assets/css/Search-Input-responsive.css">
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
 <body style="background-image: url(&quot;assets/img/bg-left2-5c6239cfdeee85bd4e1299b1568bfe266cf8f3db605ccfa26f2e3d9e7a31fc2d.png&quot;);background-repeat: no-repeat;background-color: rgb(0,32,81);">
     <nav class="navbar navbar-light navbar-expand-md navigation-clean-search" style="margin: 0px;margin-left: 50px;background-color: rgb(0,32,81);color: rgb(230,237,244);padding: 11px;width: 1202px;margin-top: 50px;">
-        <div class="container"><img src="assets/img/logo-hf19-header-8245176fe235ab5d942c7580778a914110fa06a23c3d55bf40e2d061809d8785.svg" style="width: 226px;margin-left: 50px; margin-top: -20px"><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+        <div class="container"><img src="assets/img/logo-hf19-header-8245176fe235ab5d942c7580778a914110fa06a23c3d55bf40e2d061809d8785.svg" style="width: 226px;margin-left: 50px;">
+            <div style="padding: 0px;margin-left: 100px;"><img src="assets/img/1200px-GSoC-icon.svg.png" style="width: 100px;padding: 0px;margin: 0px;"><img src="assets/img/uqg81d3%20-%20Imgur.png" style="width: 200px;"><img src="assets/img/logo.png" style="width: 166px;"></div><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div
                 class="collapse navbar-collapse" id="navcol-1">
                 <ul class="nav navbar-nav"></ul>
-                <!-- <form class="form-inline mr-auto" target="_self">
-                    <div class="form-group" style="margin-left: 1000px;"><label for="search-field"><i class="fa fa-search"></i></label><input class="form-control search-field" type="search" id="search-field" name="search" style="width: 233px;padding: 8px;"></div>
-                </form> -->
         </div>
         </div>
     </nav>
-    <div class="brands"><a href="#"><img src="assets/img/1200px-GSoC-icon.svg.png" style="width: 94px;"> <img src="assets/img/logo.png" style="width: 106px;"><img src="assets/img/uqg81d3%20-%20Imgur.png" style="width: 187px;"></a></div>
     <section></section>
-    <section id="hero" style="font-family: 'Space Mono';">
+    <section id="hero" style="font-family: 'Space Mono';margin: 63px;">
         <div>
-            <ul class="nav nav-tabs" style="width: 430px;margin: 0px;margin-left: 98px;padding: 0px;">
-                <li class="nav-item"><a class="nav-link active" role="tab" data-toggle="tab" href="#tab-1" style="margin-left: 0px;">Top 10</a></li>
+                <li class="nav-item"><a class="nav-link active" role="tab" data-toggle="tab" href="#tab-3">Evaluate</a></li>
+            <ul class="nav nav-tabs" style="width: 652px;margin: 0px;margin-left: 98px;padding: 0px;">
+                <li class="nav-item"><a class="nav-link" role="tab" data-toggle="tab" href="#tab-1" style="margin-left: 0px;">Top 10</a></li>
                 <li class="nav-item"><a class="nav-link" role="tab" data-toggle="tab" href="#tab-2">All Contributors</a></li>
+                <li class="nav-item"><a class="nav-link" role="tab" data-toggle="tab" href="#tab-4">Countdown</a></li>
             </ul>
             <div class="tab-content">
                 <div class="tab-pane active" role="tabpanel" id="tab-1">
@@ -41,13 +43,13 @@
                             <div class="col" style="font-size: 31px;"><label class="col-form-label head" style="font-size: 31px;">Rank</label></div>
                             <div class="col" style="font-size: 28px;"><label class="col-form-label head" style="font-size: 25px;">Name</label></div>
                             <div class="col" style="font-size: 25px;"><label class="col-form-label head" style="font-size: 25px;">Number of Pull Requests</label></div>
-                        </div> -->
-                        <!-- <div class="row" style="color: #ffd700;">
-                            <div class="col" style="font-size: 21px;"><label id="rank" class="col-form-label">1</label></div>
-                            <div class="col"><a id="name" href="#" style="font-size: 31px;color: #ffd700;">Link</a></div>
-                            <div class="col"><label id="pr" class="col-form-label">100</label></div>
-                        </div> -->
-                        <!-- <div class="row" style="color: #c0c0c0;">
+                            <div class="col" style="font-size: 21px;"><label class="col-form-label">1</label></div>
+                        </div>
+                        <div class="row" style="color: #ffd700;">
+                            <div class="col"><a href="#" style="font-size: 31px;color: #ffd700;">Link</a></div>
+                            <div class="col"><label class="col-form-label">102</label></div>
+                        </div>
+                        <div class="row" style="color: #c0c0c0;">
                             <div class="col" style="font-size: 21px;"><label class="col-form-label">2</label></div>
                             <div class="col"><a href="#" style="font-size: 31px;color: #c0c0c0;">Link</a></div>
                             <div class="col"><label class="col-form-label">50</label></div>
@@ -97,54 +99,92 @@
                 <div class="tab-pane" role="tabpanel" id="tab-2">
                     <div class="container" style="color: rgb(221,235,249);">
                         <div class="row">
-                            <div class="col" style="font-size: 31px;"><label class="col-form-label head" style="font-size: 31px;">Rank</label></div>
                             <div class="col" style="font-size: 28px;"><label class="col-form-label head" style="font-size: 25px;">Name</label></div>
                             <div class="col" style="font-size: 25px;"><label class="col-form-label head" style="font-size: 25px;">Number of Pull Requests</label></div>
                         </div>
                         <div class="row" style="color: #ffd700;">
-                            <div class="col" style="font-size: 21px;"><label class="col-form-label">1</label></div>
                             <div class="col"><a href="#" style="font-size: 31px;color: #ffd700;">Link</a></div>
                             <div class="col"><label class="col-form-label">100</label></div>
                         </div>
                         <div class="row" style="color: #c0c0c0;">
-                            <div class="col" style="font-size: 21px;"><label class="col-form-label">2</label></div>
                             <div class="col"><a href="#" style="font-size: 31px;color: #c0c0c0;">Link</a></div>
                             <div class="col"><label class="col-form-label">50</label></div>
                         </div>
                         <div class="row" style="color: #cd7f32;">
-                            <div class="col" style="font-size: 21px;"><label class="col-form-label">3</label></div>
                             <div class="col"><a href="#" style="font-size: 31px;color: #cd7f32;">Link</a></div>
                             <div class="col"><label class="col-form-label">25</label></div>
                         </div>
                         <div class="row">
-                            <div class="col" style="font-size: 21px;"><label class="col-form-label">4</label></div>
                             <div class="col"><a href="#" style="font-size: 31px;">Link</a></div>
                             <div class="col"><label class="col-form-label">10</label></div>
                         </div>
+                    </div>
+                </div>
+                <div class="tab-pane active" role="tabpanel" id="tab-3">
+                    <div class="container" style="color: rgb(221,235,249);">
                         <div class="row">
-                            <div class="col" style="font-size: 21px;"><label class="col-form-label">5</label></div>
-                            <div class="col"><a href="#" style="font-size: 31px;">Link</a></div>
-                            <div class="col"><label class="col-form-label">10</label></div>
+                            <div class="col">
+                                <form class="search-form">
+                                    <div class="input-group">
+                                        <div class="input-group-prepend"><span class="input-group-text"><i class="fa fa-search"></i></span></div><input class="form-control" type="text" placeholder="I am looking for..">
+                                        <div class="input-group-append"><button class="btn btn-light" type="button">Search </button></div>
+                                    </div>
+                                </form>
+                            </div>
                         </div>
                         <div class="row">
-                            <div class="col" style="font-size: 21px;"><label class="col-form-label">6</label></div>
-                            <div class="col"><a href="#" style="font-size: 31px;">Link</a></div>
-                            <div class="col"><label class="col-form-label">10</label></div>
+                            <div class="col" style="font-size: 28px;"><label class="col-form-label head" style="font-size: 25px;">Name</label></div>
+                            <div class="col" style="font-size: 25px;"><label class="col-form-label head" style="font-size: 25px;">Number of Pull Requests</label></div>
+                            <div class="col" style="font-size: 25px;"><label class="col-form-label head" style="font-size: 25px;">Evaluate</label></div>
+                        </div>
+                        <div class="row" style="color: #ffd700;">
+                            <div class="col"><a href="#" style="font-size: 31px;color: #ffd700;">Link</a></div>
+                            <div class="col"><label class="col-form-label">100</label></div>
+                            <div class="col">
+                                <div class="btn-group" role="group"><button class="btn btn-primary" type="button" style="background-color: rgb(137,85,249);border: rgb(137,85,249);">Easy</button><button class="btn btn-primary" type="button" style="background-color: rgb(91,15,252);border: rgb(91,15,252);">Intermediate</button>
+                                    <button
+                                        class="btn btn-primary" type="button" style="background-color: rgb(76,3,169);border: rgb(76,3,169);">Hard</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row" style="color: #c0c0c0;">
+                            <div class="col"><a href="#" style="font-size: 31px;color: #c0c0c0;">Link</a></div>
+                            <div class="col"><label class="col-form-label">50</label></div>
+                            <div class="col">
+                                <div class="btn-group" role="group"><button class="btn btn-primary" type="button" style="background-color: rgb(137,85,249);border: rgb(137,85,249);">Easy</button><button class="btn btn-primary" type="button" style="background-color: rgb(91,15,252);border: rgb(91,15,252);">Intermediate</button>
+                                    <button
+                                        class="btn btn-primary" type="button" style="background-color: rgb(76,3,169);border: rgb(76,3,169);">Hard</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row" style="color: #cd7f32;">
+                            <div class="col"><a href="#" style="font-size: 31px;color: #cd7f32;">Link</a></div>
+                            <div class="col"><label class="col-form-label">25</label></div>
+                            <div class="col">
+                                <div class="btn-group" role="group"><button class="btn btn-primary" type="button" style="background-color: rgb(137,85,249);border: rgb(137,85,249);">Easy</button><button class="btn btn-primary" type="button" style="background-color: rgb(91,15,252);border: rgb(91,15,252);">Intermediate</button>
+                                    <button
+                                        class="btn btn-primary" type="button" style="background-color: rgb(76,3,169);border: rgb(76,3,169);">Hard</button>
+                                </div>
+                            </div>
                         </div>
                         <div class="row">
-                            <div class="col" style="font-size: 21px;"><label class="col-form-label">7</label></div>
                             <div class="col"><a href="#" style="font-size: 31px;">Link</a></div>
                             <div class="col"><label class="col-form-label">10</label></div>
+                            <div class="col">
+                                <div class="btn-group" role="group"><button class="btn btn-primary" type="button" style="background-color: rgb(137,85,249);border: rgb(137,85,249);">Easy</button><button class="btn btn-primary" type="button" style="background-color: rgb(91,15,252);border: rgb(91,15,252);">Intermediate</button>
+                                    <button
+                                        class="btn btn-primary" type="button" style="background-color: rgb(76,3,169);border: rgb(76,3,169);">Hard</button>
+                                </div>
+                            </div>
                         </div>
-                        <div class="row">
-                            <div class="col" style="font-size: 21px;"><label class="col-form-label">8</label></div>
-                            <div class="col"><a href="#" style="font-size: 31px;">Link</a></div>
-                            <div class="col"><label class="col-form-label">10</label></div>
-                        </div>
-                        <div class="row">
-                            <div class="col" style="font-size: 21px;"><label class="col-form-label">9</label></div>
-                            <div class="col"><a href="#" style="font-size: 31px;">Link</a></div>
-                            <div class="col"><label class="col-form-label">10</label></div>
+                    </div>
+                </div>
+                <div class="tab-pane" role="tabpanel" id="tab-4">
+                    <div class="container" style="margin-top: 30px;">
+                        <div id="clockdiv">
+                            <div class="clock-wrapper" style="background-color: rgb(57,72,111);"><span class="days" style="background-color: rgb(171,180,201);width: 260px;height: 330px;padding: 0px;font-size: 55px;"> </span></div>
+                            <div class="clock-wrapper" style="background-color: rgb(57,72,111);"><span class="hours" style="background-color: rgb(171,180,201);width: 260px;height: 330px;padding: 0px;"> </span></div>
+                            <div class="clock-wrapper" style="background-color: rgb(57,72,111);"><span class="minutes" style="background-color: rgb(171,180,201);width: 260px;height: 330px;padding: 0px;"> </span></div>
                         </div>
                     </div>
                 </div>
